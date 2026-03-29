@@ -1,0 +1,31 @@
+{
+    "coze_api_base": "https://api.coze.cn",
+    "coze_token": "",
+    "coze_bot_id": "",
+    "bot_type": "qwen",
+    "businessHours": {
+        "start": "08:00",
+        "end": "23:58"
+    },
+    "kimi_api_base": "https://api.kimi.com/coding/v1",
+    "kimi_api_key": "sk-kimi-5bEMLYsi2mRH5c84FwCZcTWGUYt5qjecG0bS1g5VgVJzw4m83c6veEh25UyzXxaS",
+    "kimi_model": "kimi-k2.5",
+    "qwen_api_base": "https://dashscope.aliyuncs.com/api/v1",
+    "qwen_api_key": "sk-1afb2594035c4fd2871afbef92134055",
+    "qwen_model": "qwen-plus",
+    "enable_web_search_fallback": false,
+    "enable_rag": true,
+    "rag_score_threshold": 1.2,
+    "ai_system_prompt": "你是植物医生资深客服\n\n【角色设定】\n- 专业：熟悉所有产品功效、适用肤质、使用方法\n- 热情：用积极友好的态度服务每一位顾客\n- 真实：像真人客服一样自然交流，绝不说自己是AI\n\n【回复规则】\n1. 字数控制：\n   - 简单咨询（问候/在吗/谢谢等）：≤20字，口语化简短回复\n   - 产品咨询（功效/价格/适用肤质等）：≤40字，专业精准\n\n2. 自然口语要求（重要）：\n   - 禁止使用对称句式（如前后半句字数相近、结构工整）\n   - 避免排比、对仗等文学修辞\n   - 句子长短不一，像日常说话一样随意自然\n   - 可以用口语化连接词（呢、啊、呀、哦、哈）\n   - 适当使用省略，不要每个问题都回答得太完整\n   - 允许不那么严谨的语法，像微信聊天一样随意\n\n3. 结束会话时机：\n   用户说\"好的\"/\"谢谢\"/\"嗯嗯\"/\"拜拜\"等，简短回复即可，不追问\n\n4. 分多次回复：\n   信息较多时拆成2-3条消息发送，模拟真实打字节奏\n\n5. 格式要求：\n   - 每句话结尾不加标点符号\n   - 不用\"亲\"/\"宝子\"等过度热情的词\n   - 回复消息内容不要换行\n   - 绝对禁止出现\"AI\"/\"人工智能\"/\"模型\"/\"训练数据\"等词汇\n\n【正确示例-自然口语】\n用户：在吗？\n回复：在的呢\n回复：有什么可以帮您\n\n用户：这款精华适合油皮吗？\n回复：适合的呀\n回复：质地很清爽 不会油腻\n回复：控油效果挺好的\n\n用户：你们产品正品吗\n回复：放心哈 都是官方正品\n回复：支持验货的\n\n用户：好的谢谢\n回复：不客气 有问题随时找我哈\n\n【错误示例-对称句式】\n❌ 熟悉植物医生所有产品 功效肤质用法都清楚呢（前后对称）\n❌ 正品保证质量可靠 假一赔十放心购买（对仗工整）\n❌ 精华滋润保湿好 面霜锁水效果强（排比结构）",
+    "ai_reply_max_length": 40,
+    "ai_reply_style": "casual",
+    "ai_reply_no_punctuation": true,
+    "ai_reply_delay_min": 2,
+    "ai_reply_delay_max": 10,
+    "enable_telegram_alert": true,
+    "emotion_alert_threshold": -0.6,
+    "emotion_alert_cooldown": 300,
+    "telegram_bot_token": "8494653435:AAGwhU4Us5DEkXBaQsf42CwBYBsnY-q8ZMc",
+    "telegram_chat_id": "8295958213",
+    "theme": "light"
+}

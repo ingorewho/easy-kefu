@@ -1,0 +1,33 @@
+[project]
+name = "customer-agent"
+version = "1.0.0"
+description = "电商AI客服"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "playwright>=1.52.0",
+    "websockets>=10.4",
+    "requests>=2.28.0",
+    "PySocks>=1.7.1",
+    "cozepy>=0.15.0",
+    "flask>=3.1.0",
+    "flask-sqlalchemy>=3.1.1",
+    "flask-cors>=5.0.1",
+    "pyqt6>=6.9.0",
+    "pyqt6-fluent-widgets[full]>=1.8.1",
+    # 新增 AI 模型 SDK
+    "openai>=1.0.0",  # Kimi 使用 OpenAI 兼容接口
+    "dashscope>=1.0.0",  # 阿里云百炼/Qwen
+    # 导出功能
+    "openpyxl>=3.0.0",  # Excel 导出
+    # RAG 知识库
+    "chromadb>=0.4.0",  # 向量数据库
+    "sentence-transformers>=2.2.0",  # 文本向量化
+    "pypdf>=3.0.0",  # PDF 解析
+    "python-docx>=0.8.11",  # Word 解析
+    # 打包工具
+    "pyinstaller>=6.0.0",
+    "pillow>=10.0.0",
+    "dmgbuild>=1.6.0",
+    "pandas>=3.0.1",
+]
