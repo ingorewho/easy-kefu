@@ -38,3 +38,6 @@ license.key
 
 # Test files
 test_*.py
+
+# ChromaDB
+src/services/database/knowledge_base/*.sqlite3
